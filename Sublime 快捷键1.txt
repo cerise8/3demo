@@ -1,0 +1,142 @@
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+一定先纯文本改成html
+
+
+html:5
+!
+html:xt
+
+link:
+link:css
+
+cc:ie
+
+.样式名  #样式名
+
+ul.ys>li.ys*5>img
+
+
+
+
+div*10
+div>ul>li>a>img
+div>ul+div 生成同级别元素
+生成向上层元素，例：div->ul->上一层添加一个ul 写法div>ul^ul
+
+生成带id或class元素，id写法 #id名 （图1），class写法 .class名。（图2）
+
+-------------------------------------------------------------------------------
+<script type="text/javascript" src="jquery-1.11.3.min.js"></script>
+<script type="text/javascript">
+
+$(document).ready(function(){
+	alert("Hello World!");
+});
+
+
+
+
+$(function(){
+
+   // 开始写 jQuery 代码...
+
+});
+</script>
+
+<!-- h5写法 -->
+	<haed>
+		<nav></nav>
+	</head>
+	<article></article>
+	<footer></footer>
+
+	<!-- //h5写法 -->
+
+
+
+生成头文件
+1.首先要给sublime text2安装一个emmet的插件，安装方法不再赘述。按住Ctrl+N新建一个文件
+2.在右下角有个plain text的标志，点击，选择文件类型为HTML
+3.然后Ctrl+S保存文件
+4.这时候输入"!"（注意一定要选择对输入法）
+5.然后按"Tab"，神奇的发现HTML的头部就出现了
+
+
+快速打开文件
+
+Ctrl+P快捷键可以快速打开文件，输入文件名称即可切换打开了，因为可能我们一次打开的窗口比较多，Ctrl+P快捷键可以快速的切换到相应的文件
+
+快速查找
+
+按住”Ctrl+F”快捷键，即可进行快速搜索，在搜索框下边输入要找的变量名称和方法名等都可以，定位很迅速。
+
+Ctrl+h 替换
+
+主要快捷键列表：
+Ctrl+L 选择整行（按住-继续选择下行）********
+
+Ctrl+KK 从光标处删除至行尾
+
+Ctrl+Shift+K 删除整行**************
+
+Ctrl+Shift+D 复制光标所在整行，插入在该行之前
+
+Ctrl+J 合并行（已选择需要合并的多行时）
+
+Ctrl+KU 改为大写
+
+Ctrl+KL 改为小写
+
+Ctrl+D 选词 （按住-继续选择下个相同的字符串）
+
+Ctrl+M 光标移动至括号内开始或结束的位置
+
+Ctrl+Shift+M 选择括号内的内容（按住-继续选择父括号）
+
+Ctrl+/ 注释整行（如已选择内容，同“Ctrl+Shift+/”效果）**********
+
+Ctrl+Shift+/ 注释已选择内容***********
+
+Ctrl+Z 撤销
+Ctrl+Y 恢复撤销
+Ctrl+M 光标跳至对应的括号
+Alt+. 闭合当前标签
+Ctrl+Shift+A 选择光标位置父标签对儿
+
+Ctrl+Shift+[ 折叠代码
+
+Ctrl+Shift+] 展开代码
+
+Ctrl+KT 折叠属性
+Ctrl+K0 展开所有
+
+Ctrl+U 软撤销
+Ctrl+T 词互换
+Tab 缩进 自动完成
+Shift+Tab 去除缩进
+Ctrl+Shift+↑ 与上行互换
+Ctrl+Shift+↓ 与下行互换
+Ctrl+K Backspace 从光标处删除至行首
+Ctrl+Enter 光标后插入行
+Ctrl+Shift+Enter 光标前插入行
+Ctrl+F2 设置书签
+F2 下一个书签
+Shift+F2 上一个书签
+
+
+
+
+
+
+
+
+
+
+
+
+
+
